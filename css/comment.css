@@ -1,0 +1,36 @@
+.comment {
+    gap: 24px;
+    padding-block-start: 40px;
+    padding-block-end: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.first-text {
+    font: var(--headLine6);
+    letter-spacing: 0.005em;
+    align-self: stretch;
+}
+
+.second-text {
+    font: var(--headLine5);
+}
+
+@media screen and (min-width: 768px) {
+    .comment {
+        height: 678px;
+        padding-block-start: 200px;
+        padding-block-end: 200px;
+        padding-inline-start: 133px;
+        padding-inline-end: 133px;
+    }
+
+    .first-text {
+        font: var(--comment1);
+    }
+
+    .second-text {
+        font: var(--headLine5);
+    }
+}
